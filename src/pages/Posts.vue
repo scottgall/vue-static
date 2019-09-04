@@ -1,5 +1,15 @@
 <template>
-  <Layout>
+  <LayoutTwo :latest="true">
     <h1>Posts</h1>
-  </Layout>
+  </LayoutTwo>
 </template>
+
+<script>
+import LayoutTwo from '../layouts/LayoutTwo.vue';
+
+export default {
+  components: {
+    LayoutTwo
+  }
+};
+</script>
